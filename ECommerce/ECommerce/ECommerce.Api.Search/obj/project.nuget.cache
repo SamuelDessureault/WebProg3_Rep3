@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fLG7DXWVgTfqWrWwbGUUfZmHTwuivcdWgsLswnK9jwrApkimTJhFXdSxyNcg34j+G1ALY8HX160bLxTxU7bd+Q==",
+  "dgSpecHash": "0Bur/G71iDm8ua3ElT/ifgkb0g5DXl1cw8VdcKm1ODpI4J+oNe6XJPdiNnetGLef5pFKHM+4+YVgWwwPaKwQRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\2044199\\Desktop\\WebProg3\\WebProg3_Rep2\\SamuelDessureault_Milestone3\\ECommerce\\ECommerce.Api.Search\\ECommerce.Api.Search.csproj",
+  "projectFilePath": "C:\\Users\\2044199\\Desktop\\WebProg3\\WebProg3_Rep3\\ECommerce\\ECommerce\\ECommerce.Api.Search\\ECommerce.Api.Search.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\2044199\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.31\\microsoft.extensions.configuration.3.1.31.nupkg.sha512",
     "C:\\Users\\2044199\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.31\\microsoft.extensions.configuration.abstractions.3.1.31.nupkg.sha512",
@@ -15,6 +15,7 @@
     "C:\\Users\\2044199\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.31\\microsoft.extensions.logging.abstractions.3.1.31.nupkg.sha512",
     "C:\\Users\\2044199\\.nuget\\packages\\microsoft.extensions.options\\3.1.31\\microsoft.extensions.options.3.1.31.nupkg.sha512",
     "C:\\Users\\2044199\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.31\\microsoft.extensions.primitives.3.1.31.nupkg.sha512",
+    "C:\\Users\\2044199\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\2044199\\.nuget\\packages\\polly\\7.1.0\\polly.7.1.0.nupkg.sha512",
     "C:\\Users\\2044199\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512"
   ],

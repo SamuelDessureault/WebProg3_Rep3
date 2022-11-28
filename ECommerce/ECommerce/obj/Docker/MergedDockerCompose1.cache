@@ -1,0 +1,22 @@
+services:
+  ecommerce.api.customers:
+    build:
+      context: C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce
+      dockerfile: ECommerce.Api.Customers\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ecommerceapicustomers
+    ports:
+    - target: 80
+  ecommerce.api.orders:
+    build:
+      context: C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce
+      dockerfile: ECommerce.Api.Order\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ecommerceapiorders
+    ports:
+    - target: 80
+    volumes:
+    - C:\Users\2044199\AppData\Roaming\Microsoft\UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
+version: '3.4'
