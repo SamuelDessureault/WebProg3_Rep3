@@ -3,7 +3,7 @@ version: '3.4'
 services:
   ecommerce.api.customers:
     image: ecommerceapicustomers:dev
-    container_name: ECommerce.Api.Customers
+    container_name: ECommerce.Api.Customers_1
     build:
       target: base
       labels:
