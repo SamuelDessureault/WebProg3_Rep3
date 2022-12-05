@@ -8,7 +8,7 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "ECommerce.Api.Customers"
     volumes:
-      - C:\Users\2044199\onecoremsvsmon:C:\remote_debugger:ro
+      - C:\Users\Mark\onecoremsvsmon:C:\remote_debugger:ro
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
 
@@ -27,7 +27,7 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "ECommerce.Api.Orders"
     volumes:
-      - C:\Users\2044199\onecoremsvsmon:C:\remote_debugger:ro
+      - C:\Users\Mark\onecoremsvsmon:C:\remote_debugger:ro
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
 
@@ -47,7 +47,7 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "ECommerce.Api.Products"
     volumes:
-      - C:\Users\2044199\onecoremsvsmon:C:\remote_debugger:ro
+      - C:\Users\Mark\onecoremsvsmon:C:\remote_debugger:ro
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
 
@@ -67,7 +67,7 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "ECommerce.Api.Search"
     volumes:
-      - C:\Users\2044199\onecoremsvsmon:C:\remote_debugger:ro
+      - C:\Users\Mark\onecoremsvsmon:C:\remote_debugger:ro
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
 

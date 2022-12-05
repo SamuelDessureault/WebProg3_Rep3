@@ -1,8 +1,8 @@
-name: dockercompose10420737711780529110
+name: dockercompose7613850173711982860
 services:
   ecommerce.api.customers:
     build:
-      context: C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce
+      context: D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce
       dockerfile: ECommerce.Api.Customers\Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
@@ -16,7 +16,7 @@ services:
       protocol: tcp
   ecommerce.api.orders:
     build:
-      context: C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce
+      context: D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce
       dockerfile: ECommerce.Api.Order\Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
@@ -30,7 +30,7 @@ services:
       protocol: tcp
   ecommerce.api.products:
     build:
-      context: C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce
+      context: D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce
       dockerfile: ECommerce.Api.Products\Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
@@ -44,10 +44,13 @@ services:
       protocol: tcp
   ecommerce.api.search:
     build:
-      context: C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce
+      context: D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce
       dockerfile: ECommerce.Api.Search\Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
+      Services__Customers: http://ecommerce.api.customers
+      Services__Orders: http://ecommerce.api.orders
+      Services__Products: http://ecommerce.api.products
     image: ecommerceapisearch
     networks:
       default: null
@@ -58,4 +61,4 @@ services:
       protocol: tcp
 networks:
   default:
-    name: dockercompose10420737711780529110_default
+    name: dockercompose7613850173711982860_default
