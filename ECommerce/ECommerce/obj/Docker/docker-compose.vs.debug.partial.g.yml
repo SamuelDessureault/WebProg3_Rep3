@@ -15,9 +15,9 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_ecommerce.api.customers$
     volumes:
-      - C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Customers:C:\app
-      - C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce:C:\src
-      - C:\Users\2044199\onecoremsvsmon:C:\remote_debugger:ro
+      - D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Customers:C:\app
+      - D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce:C:\src
+      - C:\Users\Mark\onecoremsvsmon:C:\remote_debugger:ro
 #$nuget_volume_mapping_ecommerce.api.customers$
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
@@ -43,9 +43,9 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_ecommerce.api.orders$
     volumes:
-      - C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Order:C:\app
-      - C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce:C:\src
-      - C:\Users\2044199\onecoremsvsmon:C:\remote_debugger:ro
+      - D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Order:C:\app
+      - D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce:C:\src
+      - C:\Users\Mark\onecoremsvsmon:C:\remote_debugger:ro
 #$nuget_volume_mapping_ecommerce.api.orders$
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
@@ -72,9 +72,9 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_ecommerce.api.products$
     volumes:
-      - C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Products:C:\app
-      - C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce:C:\src
-      - C:\Users\2044199\onecoremsvsmon:C:\remote_debugger:ro
+      - D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Products:C:\app
+      - D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce:C:\src
+      - C:\Users\Mark\onecoremsvsmon:C:\remote_debugger:ro
 #$nuget_volume_mapping_ecommerce.api.products$
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
@@ -101,9 +101,9 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_ecommerce.api.search$
     volumes:
-      - C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Search:C:\app
-      - C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce:C:\src
-      - C:\Users\2044199\onecoremsvsmon:C:\remote_debugger:ro
+      - D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Search:C:\app
+      - D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce:C:\src
+      - C:\Users\Mark\onecoremsvsmon:C:\remote_debugger:ro
 #$nuget_volume_mapping_ecommerce.api.search$
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
