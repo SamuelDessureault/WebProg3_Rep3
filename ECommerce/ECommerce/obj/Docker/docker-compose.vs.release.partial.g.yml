@@ -8,7 +8,11 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "ECommerce.Api.Customers"
     volumes:
+<<<<<<< HEAD
       - C:\Users\2044199\onecoremsvsmon\16.11.1199.0:C:\remote_debugger:ro
+=======
+      - C:\Users\Mark\onecoremsvsmon:C:\remote_debugger:ro
+>>>>>>> 7e7a6d3bee7a19c2ce74419cec82f4c8593be114
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
 
@@ -27,7 +31,11 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "ECommerce.Api.Orders"
     volumes:
+<<<<<<< HEAD
       - C:\Users\2044199\onecoremsvsmon\16.11.1199.0:C:\remote_debugger:ro
+=======
+      - C:\Users\Mark\onecoremsvsmon:C:\remote_debugger:ro
+>>>>>>> 7e7a6d3bee7a19c2ce74419cec82f4c8593be114
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
 
@@ -47,7 +55,11 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "ECommerce.Api.Products"
     volumes:
+<<<<<<< HEAD
       - C:\Users\2044199\onecoremsvsmon\16.11.1199.0:C:\remote_debugger:ro
+=======
+      - C:\Users\Mark\onecoremsvsmon:C:\remote_debugger:ro
+>>>>>>> 7e7a6d3bee7a19c2ce74419cec82f4c8593be114
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
 
@@ -67,7 +79,11 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "ECommerce.Api.Search"
     volumes:
+<<<<<<< HEAD
       - C:\Users\2044199\onecoremsvsmon\16.11.1199.0:C:\remote_debugger:ro
+=======
+      - C:\Users\Mark\onecoremsvsmon:C:\remote_debugger:ro
+>>>>>>> 7e7a6d3bee7a19c2ce74419cec82f4c8593be114
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
 

@@ -956,35 +956,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\2044199\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Mark\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\2044199\\Desktop\\WebProg3\\WebProg3_Rep3\\ECommerce\\ECommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj",
+      "projectUniqueName": "D:\\Semester5\\WebProg3\\BackUp\\WebProg3OtherAssignments\\WebProg3_Rep3\\ECommerce\\ECommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj",
       "projectName": "ECommerce.Api.Products",
-      "projectPath": "C:\\Users\\2044199\\Desktop\\WebProg3\\WebProg3_Rep3\\ECommerce\\ECommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj",
-      "packagesPath": "C:\\Users\\2044199\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\2044199\\Desktop\\WebProg3\\WebProg3_Rep3\\ECommerce\\ECommerce\\ECommerce.Api.Products\\obj\\",
+      "projectPath": "D:\\Semester5\\WebProg3\\BackUp\\WebProg3OtherAssignments\\WebProg3_Rep3\\ECommerce\\ECommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj",
+      "packagesPath": "C:\\Users\\Mark\\.nuget\\packages\\",
+      "outputPath": "D:\\Semester5\\WebProg3\\BackUp\\WebProg3OtherAssignments\\WebProg3_Rep3\\ECommerce\\ECommerce\\ECommerce.Api.Products\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\2044199\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Mark\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

@@ -15,7 +15,7 @@ services:
     entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /fallbackloadremotemanagedpdbs /timeout:2147483646 /LogDebuggeeOutputToStdOut
     labels:
       com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath c:\\.nuget\\packages --additionalProbingPath c:\\.nuget\\fallbackpackages --additionalProbingPath c:\\.nuget\\fallbackpackages2  \"C:\\app\\ECommerce.Api.Customers.dll\""
+      com.microsoft.visualstudio.debuggee.arguments: "  \"C:\\app\\ECommerce.Api.Customers.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
       com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"
       com.microsoft.visual-studio.project-name: "ECommerce.Api.Customers"
@@ -34,7 +34,7 @@ services:
     entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /fallbackloadremotemanagedpdbs /timeout:2147483646 /LogDebuggeeOutputToStdOut
     labels:
       com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath c:\\.nuget\\packages --additionalProbingPath c:\\.nuget\\fallbackpackages --additionalProbingPath c:\\.nuget\\fallbackpackages2  \"C:\\app\\ECommerce.Api.Orders.dll\""
+      com.microsoft.visualstudio.debuggee.arguments: "  \"C:\\app\\ECommerce.Api.Orders.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
       com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"
       com.microsoft.visual-studio.project-name: "ECommerce.Api.Orders"
@@ -54,7 +54,7 @@ services:
     entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /fallbackloadremotemanagedpdbs /timeout:2147483646 /LogDebuggeeOutputToStdOut
     labels:
       com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath c:\\.nuget\\packages --additionalProbingPath c:\\.nuget\\fallbackpackages --additionalProbingPath c:\\.nuget\\fallbackpackages2  \"C:\\app\\ECommerce.Api.Products.dll\""
+      com.microsoft.visualstudio.debuggee.arguments: "  \"C:\\app\\ECommerce.Api.Products.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
       com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"
       com.microsoft.visual-studio.project-name: "ECommerce.Api.Products"
@@ -74,7 +74,7 @@ services:
     entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /fallbackloadremotemanagedpdbs /timeout:2147483646 /LogDebuggeeOutputToStdOut
     labels:
       com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath c:\\.nuget\\packages --additionalProbingPath c:\\.nuget\\fallbackpackages --additionalProbingPath c:\\.nuget\\fallbackpackages2  \"C:\\app\\ECommerce.Api.Search.dll\""
+      com.microsoft.visualstudio.debuggee.arguments: "  \"C:\\app\\ECommerce.Api.Search.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
       com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"
       com.microsoft.visual-studio.project-name: "ECommerce.Api.Search"

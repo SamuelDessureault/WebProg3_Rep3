@@ -15,12 +15,19 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=c:\.nuget\fallbackpackages;c:\.nuget\fallbackpackages2
     volumes:
+<<<<<<< HEAD
       - C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Customers:C:\app
       - C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce:C:\src
       - C:\Users\2044199\onecoremsvsmon\16.11.1199.0:C:\remote_debugger:ro
       - C:\Users\2044199\.nuget\packages\:c:\.nuget\packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:c:\.nuget\fallbackpackages:ro
       - C:\Program Files (x86)\Microsoft\Xamarin\NuGet\:c:\.nuget\fallbackpackages2:ro
+=======
+      - D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Customers:C:\app
+      - D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce:C:\src
+      - C:\Users\Mark\onecoremsvsmon:C:\remote_debugger:ro
+#$nuget_volume_mapping_ecommerce.api.customers$
+>>>>>>> 7e7a6d3bee7a19c2ce74419cec82f4c8593be114
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
 
@@ -45,12 +52,19 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=c:\.nuget\fallbackpackages;c:\.nuget\fallbackpackages2
     volumes:
+<<<<<<< HEAD
       - C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Order:C:\app
       - C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce:C:\src
       - C:\Users\2044199\onecoremsvsmon\16.11.1199.0:C:\remote_debugger:ro
       - C:\Users\2044199\.nuget\packages\:c:\.nuget\packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:c:\.nuget\fallbackpackages:ro
       - C:\Program Files (x86)\Microsoft\Xamarin\NuGet\:c:\.nuget\fallbackpackages2:ro
+=======
+      - D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Order:C:\app
+      - D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce:C:\src
+      - C:\Users\Mark\onecoremsvsmon:C:\remote_debugger:ro
+#$nuget_volume_mapping_ecommerce.api.orders$
+>>>>>>> 7e7a6d3bee7a19c2ce74419cec82f4c8593be114
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
 
@@ -76,12 +90,19 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=c:\.nuget\fallbackpackages;c:\.nuget\fallbackpackages2
     volumes:
+<<<<<<< HEAD
       - C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Products:C:\app
       - C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce:C:\src
       - C:\Users\2044199\onecoremsvsmon\16.11.1199.0:C:\remote_debugger:ro
       - C:\Users\2044199\.nuget\packages\:c:\.nuget\packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:c:\.nuget\fallbackpackages:ro
       - C:\Program Files (x86)\Microsoft\Xamarin\NuGet\:c:\.nuget\fallbackpackages2:ro
+=======
+      - D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Products:C:\app
+      - D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce:C:\src
+      - C:\Users\Mark\onecoremsvsmon:C:\remote_debugger:ro
+#$nuget_volume_mapping_ecommerce.api.products$
+>>>>>>> 7e7a6d3bee7a19c2ce74419cec82f4c8593be114
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
 
@@ -107,12 +128,19 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=c:\.nuget\fallbackpackages;c:\.nuget\fallbackpackages2
     volumes:
+<<<<<<< HEAD
       - C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Search:C:\app
       - C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce:C:\src
       - C:\Users\2044199\onecoremsvsmon\16.11.1199.0:C:\remote_debugger:ro
       - C:\Users\2044199\.nuget\packages\:c:\.nuget\packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:c:\.nuget\fallbackpackages:ro
       - C:\Program Files (x86)\Microsoft\Xamarin\NuGet\:c:\.nuget\fallbackpackages2:ro
+=======
+      - D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Search:C:\app
+      - D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce:C:\src
+      - C:\Users\Mark\onecoremsvsmon:C:\remote_debugger:ro
+#$nuget_volume_mapping_ecommerce.api.search$
+>>>>>>> 7e7a6d3bee7a19c2ce74419cec82f4c8593be114
       - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
       - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
 
