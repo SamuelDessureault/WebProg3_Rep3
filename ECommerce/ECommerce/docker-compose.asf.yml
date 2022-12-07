@@ -2,18 +2,21 @@ version: '3.4'
 
 services:
   customers:
+    image: saucysammy/ecommerceapicustomers:latest
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
       - "80/http"
 
   orders:
+    image: saucysammy/ecommerceapiorders:latest
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
       - "80/http"
 
   products:
+    image: saucysammy/ecommerceapiproducts:latest
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
@@ -21,6 +24,7 @@ services:
 
 
   search:
+    image: saucysammy/ecommerceapisearch:latest
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - Services__Products=http://ecommerce.api.products
