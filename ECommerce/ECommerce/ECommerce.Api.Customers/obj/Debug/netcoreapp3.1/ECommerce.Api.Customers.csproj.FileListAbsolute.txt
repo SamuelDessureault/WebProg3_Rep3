@@ -127,3 +127,9 @@ D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\EC
 D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Customers\obj\Debug\netcoreapp3.1\ECommerce.Api.Customers.dll
 D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Customers\obj\Debug\netcoreapp3.1\ECommerce.Api.Customers.pdb
 D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Customers\obj\Debug\netcoreapp3.1\ECommerce.Api.Customers.genruntimeconfig.cache
+C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Customers\bin\Debug\netcoreapp3.1\ECommerce.Api.Customers.xml
+C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Customers\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Customers\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Customers\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Customers\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Customers\obj\Debug\netcoreapp3.1\ECommerce.Api.Customers.MvcApplicationPartsAssemblyInfo.cs

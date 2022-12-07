@@ -103,3 +103,9 @@ D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\EC
 D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Search\obj\Debug\netcoreapp3.1\ECommerce.Api.Search.dll
 D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Search\obj\Debug\netcoreapp3.1\ECommerce.Api.Search.pdb
 D:\Semester5\WebProg3\BackUp\WebProg3OtherAssignments\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Search\obj\Debug\netcoreapp3.1\ECommerce.Api.Search.genruntimeconfig.cache
+C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\ECommerce.Api.Search.xml
+C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\2044199\Desktop\WebProg3\WebProg3_Rep3\ECommerce\ECommerce\ECommerce.Api.Search\obj\Debug\netcoreapp3.1\ECommerce.Api.Search.MvcApplicationPartsAssemblyInfo.cs
